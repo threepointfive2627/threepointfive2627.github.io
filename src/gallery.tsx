@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './gallery.css';
 import CloseIcon from '@mui/icons-material/Close';
 
