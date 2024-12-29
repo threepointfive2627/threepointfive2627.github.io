@@ -2,15 +2,15 @@
   "name": "threepointfive",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://threepointfive2627.github.io",
+  "homepage": "https://threepointfive2627.github.io/threepointfive2627.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "vite build",
-    "deploy": "vite build && vite-plugin-gh-pages"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
