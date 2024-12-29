@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './gallery.css';
 import CloseIcon from '@mui/icons-material/Close';
-
 import Img1 from './images/image1.jpg';
 import Img2 from './images/image2.jpg';
 import Img3 from './images/image3.jpg';
