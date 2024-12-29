@@ -6,15 +6,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/threepointfive2627/threepointfive2627.github.io"
+    "type": "git",
+    "url": "git+https://github.com/threepointfive2627/threepointfive2627.github.io"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
